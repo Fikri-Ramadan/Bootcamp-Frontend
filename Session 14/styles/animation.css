@@ -1,0 +1,21 @@
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  z-index: 99;
+  background-color: white;
+  animation-name: example;
+  animation-duration: 5s;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes example {
+  from {
+    top: 0;
+  }
+  to {
+    left: 100px;
+  }
+}

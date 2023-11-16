@@ -39,6 +39,15 @@ nav .link {
   cursor: pointer;
 }
 
+nav .link:hover {
+  background-color: rgb(204,204,204);
+  color: black;
+}
+
+nav .search:hover {
+  background-color: rgb(244,67,54);
+}
+
 nav .search {
   display: grid;
   place-items: center;
